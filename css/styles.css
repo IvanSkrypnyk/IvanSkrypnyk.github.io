@@ -1,5 +1,9 @@
+a {
+  text-decoration: none;
+}
+
 /*=================HEADER======================*/
-.logo-span-web {
+.header-logo-span-web {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -11,7 +15,7 @@
   color: #2196f3;
 }
 
-.logo-span-studio {
+.header-logo-span-studio {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -219,6 +223,30 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-logo-span-web {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 192;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.footer-logo-span-studio {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.384;
+
+  letter-spacing: 0.03em;
+
+  color: white;
+}
+
 /*=================FOOTER END======================*/
 
 /*=================PORTFOLIO======================*/
@@ -247,7 +275,7 @@
   color: #757575;
 }
 
-.portfolio-filters-list-item-text {
+.portfolio-filters-list-item-button {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -259,5 +287,4 @@
 
   color: #212121;
 }
-
 /*=================PORTFOLIO END======================*/
