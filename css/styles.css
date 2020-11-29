@@ -38,6 +38,10 @@ a {
   color: #212121;
 }
 
+.link-accent {
+  color: #2196f3;
+}
+
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus {
   color: #2196f3;
