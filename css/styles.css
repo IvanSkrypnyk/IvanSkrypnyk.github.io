@@ -268,7 +268,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
 
@@ -287,4 +286,11 @@ a {
 
   color: #212121;
 }
+
+.portfolio-filters-list-item-button:hover,
+.portfolio-filters-list-item-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 /*=================PORTFOLIO END======================*/
