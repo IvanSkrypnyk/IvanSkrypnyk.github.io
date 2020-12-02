@@ -35,7 +35,7 @@ img {
 /*=================HEADER======================*/
 
 .header {
-  padding-top: 25px;
+  padding-top: 24px;
   padding-bottom: 25px;
 }
 
@@ -90,7 +90,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  line-height: 1.384;
+  line-height: 1, 192;
 
   letter-spacing: 0.03em;
 
@@ -251,6 +251,7 @@ img {
   letter-spacing: 0.03em;
 
   color: #757575;
+  margin-top: 10px;
 }
 
 /*=================FEATURES END======================*/
@@ -419,7 +420,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  line-height: 1.384;
+  line-height: 1, 192;
 
   letter-spacing: 0.03em;
 
@@ -435,6 +436,12 @@ img {
   padding-bottom: 94px;
 }
 
+.portfolio-menu .container {
+  width: 1200px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
 .portfolio-filters-list {
   display: flex;
   justify-content: center;
@@ -448,17 +455,17 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -27px;
-  margin-top: -27px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .projecs-list-item {
-  margin-left: 27px;
-  margin-top: 27px;
+  margin-left: 30px;
+  margin-top: 30px;
   background: #ffffff;
   box-sizing: border-box;
   border: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3 - 27px);
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .projecs-list-item-title {
@@ -502,7 +509,6 @@ img {
   cursor: pointer;
 
   color: #212121;
-  border-radius: 4px;
   padding: 6px 22px 6px 22px;
 }
 
