@@ -137,6 +137,19 @@ img {
 .header-contact-item-link:focus {
   color: #2196f3;
 }
+
+.header-contact-link-icon {
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.header-contact-item-link:hover .header-contact-link-icon,
+.header-contact-item-link:focus .header-contact-link-icon {
+  fill: #2196f3;
+}
+
 /*=================HEADER END======================*/
 
 /*=================HERO======================*/
@@ -145,8 +158,14 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   height: 600px;
-
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero .container {
@@ -237,6 +256,7 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 
   color: #212121;
 }
@@ -252,6 +272,23 @@ img {
 
   color: #757575;
   margin-top: 10px;
+}
+
+.features-list-icon-border {
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features-list-icon {
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /*=================FEATURES END======================*/
@@ -391,9 +428,65 @@ img {
 .team-social-icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 
 /*=================TEAM END======================*/
+
+/*=================PARTNERS END======================*/
+
+.partners {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.partners-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+
+  color: #212121;
+}
+
+.partners-logo-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.partners-logo-icon {
+  width: 89px;
+  height: 52px;
+  fill: #afb1b8;
+}
+
+.partners-logo-link:hover,
+.partners-logo-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.partners-logo-link:hover .partners-logo-icon,
+.partners-logo-link:focus .partners-logo-icon {
+  fill: #2196f3;
+}
+
+/*=================PARTNERS END======================*/
 
 /*=================FOOTER======================*/
 
@@ -404,6 +497,17 @@ img {
 }
 
 .footer .container {
+  display: flex;
+}
+
+.footer-logo-adress {
+  display: block;
+  margin-right: 70px;
+}
+
+.footer-social-links {
+  width: 206px;
+  height: 80px;
   display: block;
 }
 
@@ -413,6 +517,20 @@ img {
 
 .footer-adress-list-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-social-link-list-title {
+  width: 145px;
+  height: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .footer-adress-list-item-link-map {
@@ -463,6 +581,39 @@ img {
   color: white;
 }
 
+.footer-social-link-list {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+  margin-top: 20px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover .team-social-icon,
+.footer-social-link:focus .team-social-icon {
+  fill: #ffffff;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
 /*=================FOOTER END======================*/
 
 /*=================PORTFOLIO======================*/
@@ -474,7 +625,7 @@ img {
 
 .portfolio-menu .container {
   width: 1200px;
-  padding: 0 12px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
