@@ -350,11 +350,47 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
+  margin-bottom: 16px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.team-social-link-list {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: #ffffff;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #2196f3;
+}
+
+.team-social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /*=================TEAM END======================*/
