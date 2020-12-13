@@ -122,6 +122,7 @@ img {
 }
 
 .header-contact-item-link {
+  display: flex;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -157,7 +158,9 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1600px;
   height: 600px;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -509,6 +512,7 @@ img {
   width: 206px;
   height: 80px;
   display: block;
+  margin-top: 12px;
 }
 
 .footer-adress {
@@ -705,6 +709,15 @@ img {
 .portfolio-filters-list-item-button:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.projecs-list-item:hover,
+.projecs-list-item:focus {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /*=================PORTFOLIO END======================*/
