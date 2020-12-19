@@ -661,6 +661,7 @@ img {
 
 .projecs-list-item .projecs-list-item-link {
   display: block;
+  padding-bottom: 22px;
 }
 
 .projecs-list-item-title {
@@ -713,12 +714,6 @@ img {
 .portfolio-filters-list-item-button:focus {
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.projecs-list-item-link {
-  border: none;
-  outline-style: none;
-  -moz-outline-style: none;
 }
 
 .projecs-list-item:hover,
