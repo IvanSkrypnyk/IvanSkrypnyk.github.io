@@ -436,7 +436,7 @@ img {
 
 /*=================TEAM END======================*/
 
-/*=================PARTNERS END======================*/
+/*=================PARTNERS======================*/
 
 .partners {
   padding-top: 94px;
@@ -659,6 +659,10 @@ img {
   flex-basis: calc(100% / 3 - 30px);
 }
 
+.projecs-list-item .projecs-list-item-link {
+  display: block;
+}
+
 .projecs-list-item-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -711,6 +715,12 @@ img {
   background-color: #2196f3;
 }
 
+.projecs-list-item-link {
+  border: none;
+  outline-style: none;
+  -moz-outline-style: none;
+}
+
 .projecs-list-item:hover,
 .projecs-list-item:focus {
   background: #ffffff;
@@ -719,5 +729,4 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 /*=================PORTFOLIO END======================*/
